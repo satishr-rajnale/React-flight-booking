@@ -1,0 +1,801 @@
+{
+  "priceoffers": [
+    {
+      "uuid": "1",
+      "origin": "Pune (PNQ)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 110.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "2",
+      "origin": "Pune (PNQ)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-27",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 5,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "3",
+      "origin": "Pune (PNQ)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 9,
+      "price": {
+        "amount": 120.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "4",
+      "origin": "Pune (PNQ)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 2,
+      "price": {
+        "amount": 110.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "5",
+      "origin": "Pune (PNQ)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "6",
+      "origin": "Pune (PNQ)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 114.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "7",
+      "origin": "Pune (PNQ)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 112.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "8",
+      "origin": "Pune (PNQ)",
+      "destination": "Mumbai (BOM))",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 1,
+      "price": {
+        "amount": 118.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "9",
+      "origin": "Pune (PNQ)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 9,
+      "price": {
+        "amount": 119.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "10",
+      "origin": "Pune (PNQ)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 110.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "11",
+      "origin": "Pune (PNQ)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 110.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "12",
+      "origin": "Pune (PNQ)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-28",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 110.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+
+    {
+      "uuid": "13",
+      "origin": "Munich (MUC)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 9,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "14",
+      "origin": "Munich (MUC)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 1,
+      "price": {
+        "amount": 118.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "15",
+      "origin": "Munich (MUC)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 1,
+      "price": {
+        "amount": 122.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+
+    {
+      "uuid": "16",
+      "origin": "Munich (MUC)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.0,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "17",
+      "origin": "Munich (MUC)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 11,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "18",
+      "origin": "Munich (MUC)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 119.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "19",
+      "origin": "Munich (MUC)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "20",
+      "origin": "Munich (MUC)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "21",
+      "origin": "Munich (MUC)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 2,
+      "price": {
+        "amount": 111.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "22",
+      "origin": "Munich (MUC)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-29",
+      "seatAvailability": 1,
+      "price": {
+        "amount": 119.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "23",
+      "origin": "Munich (MUC)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 105.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "24",
+      "origin": "Munich (MUC)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "25",
+      "origin": "Berlin (BRLN)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 125.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "26",
+      "origin": "Berlin (BRLN)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 17,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "27",
+      "origin": "Berlin (BRLN)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 27,
+      "price": {
+        "amount": 135.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "28",
+      "origin": "Berlin (BRLN)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 37,
+      "price": {
+        "amount": 145.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "29",
+      "origin": "Berlin (BRLN)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 95.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "30",
+      "origin": "Berlin (BRLN)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+
+    {
+      "uuid": "31",
+      "origin": "Berlin (BRLN)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 71,
+      "price": {
+        "amount": 155.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "32",
+      "origin": "Berlin (BRLN)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 85.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "33",
+      "origin": "Berlin (BRLN)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 17,
+      "price": {
+        "amount": 95.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "34",
+      "origin": "Berlin (BRLN)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 37,
+      "price": {
+        "amount": 145.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "35",
+      "origin": "Berlin (BRLN)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "36",
+      "origin": "Berlin (BRLN)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+
+    {
+      "uuid": "37",
+      "origin": "Mumbai (BOM)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "38",
+      "origin": "Mumbai (BOM)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "39",
+      "origin": "Mumbai (BOM)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "40",
+      "origin": "Mumbai (BOM)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "41",
+      "origin": "Mumbai (BOM)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "42",
+      "origin": "Mumbai (BOM)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "43",
+      "origin": "Mumbai (BOM)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "44",
+      "origin": "Mumbai (BOM)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "45",
+      "origin": "Mumbai (BOM)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "46",
+      "origin": "Mumbai (BOM)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "47",
+      "origin": "Mumbai (BOM)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "48",
+      "origin": "Mumbai (BOM)",
+      "destination": "Frankfurt (FRA)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "49",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "50",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-12-11",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "51",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Pune (PNQ)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "52",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "53",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "54",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Munich (MUC)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "55",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "56",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "57",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Berlin (BRLN)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "58",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "59",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "60",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    },
+    {
+      "uuid": "61",
+      "origin": "Frankfurt (FRA)",
+      "destination": "Mumbai (BOM)",
+      "departureDate": "2021-11-26",
+      "returnDate": "2021-11-28",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 115.26,
+        "currency": "EUR"
+      },
+      "offerType": "BestPrice"
+    }
+  ]
+}

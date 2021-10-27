@@ -1,16 +1,42 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import { connect } from 'react-redux';
-import SearchForm from './container/search-form/search-form';
-import FlightsGrid from './components/flights-grid/flights-grid';
-import { getFlights } from './actions';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import SearchForm from "./container/search-form/search-form";
+import FlightsGrid from "./components/flights-grid/flights-grid";
 
 function App(props) {
-  useEffect(() => {
-    props.getFlights()
-  }, [(props.flights || []).legnth]);
+  const [tasks, setTasks] = useState([]);
+  const [flightData, setFlightData] = useState([]);
+  const [criteria, setCriteria] = useState({});
 
-  const { origin, destination, departureDate, returnDate } = props.filters || {};
+  useEffect(() => {
+    const getFlights = async () => {
+      const tasksFromServer = await fetchFlight();
+      setTasks(tasksFromServer);
+    };
+
+    getFlights();
+  }, []);
+
+  // Fetch flights
+  const fetchFlight = async () => {
+    const res = await fetch("http://localhost:5000/priceoffers");
+    const data = await res.json();
+
+    return data;
+  };
+
+  const getCriteria = (data) => {
+    setCriteria(data);
+    const updatedTasks = tasks.filter(
+      (item) =>
+        item.origin.trim() === data.origin.trim() &&
+        item.destination.trim() === data.destination.trim()
+    );
+
+    setFlightData(updatedTasks);
+    console.log("updatedTasks", updatedTasks, tasks);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,34 +44,16 @@ function App(props) {
       </header>
       <section className="Main-container">
         <aside className="Search-section">
-          <SearchForm></SearchForm>
+          <SearchForm getCriteria={getCriteria}></SearchForm>
         </aside>
         <section className="Results-section">
-          { props.routes && props.routes.onwards && <FlightsGrid 
-            flights={ props.routes.onwards} 
-            criteria={{origin, destination, date: departureDate}}
-          ></FlightsGrid> }
-          {props.routes && props.routes.return && <FlightsGrid 
-            flights={ props.routes.return}
-            criteria={{origin: destination, destination: origin, date: returnDate}}
-          ></FlightsGrid>}
+          {flightData && (
+            <FlightsGrid flights={flightData} criteria={criteria}></FlightsGrid>
+          )}
         </section>
       </section>
-            
     </div>
   );
 }
 
-const mapStateToProps = (state) => ({
-  flights: state.flights,
-  routes: state.routes,
-  filters: state.filters
-})
-
-const mapDispatchToProps = {
-  getFlights
-}
-
-
-export default connect(mapStateToProps, mapDispatchToProps)(App)
-
+export default App;
